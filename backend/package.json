@@ -1,0 +1,32 @@
+{
+  "name": "junior-test-endpoint",
+  "version": "1.0.0",
+  "description": "You are going to need this endpoint in order to implement the assignment given to you (minimalistic storefront).",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
+  },
+  "keywords": [],
+  "author": "Justyna Duranowska",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0",
+    "typescript": "^4.2.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scandiweb/junior-react-endpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scandiweb/junior-react-endpoint/issues"
+  },
+  "homepage": "https://github.com/scandiweb/junior-react-endpoint#readme"
+}
